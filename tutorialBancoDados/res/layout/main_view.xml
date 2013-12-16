@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/hello" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/nomeCarro" />
+
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:id="@+id/editNome" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/placaCarro" />
+
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:id="@+id/editPlaca" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/modeloCarro" />
+
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:id="@+id/editModelo" />
+
+	<!-- Criação de um LinearLayout para o agrupamento de botões -->
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginTop="160dip">
+
+		<Button android:text="@string/enviarCarro" android:id="@+id/buttonEnviar"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+
+		<Button android:text="@string/buscarCarro" android:id="@+id/buttonBuscar"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+
+		<Button android:text="@string/excluirCarro" android:id="@+id/buttonExcluir"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+</LinearLayout>

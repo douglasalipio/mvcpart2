@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Tutorial Banco de Dados</string>
+    <string name="placaCarro">Placa</string>
+    <string name="nomeCarro">Nome</string>
+    <string name="modeloCarro">Modelo</string>
+    <string name="enviarCarro">Inserir</string>
+    <string name="buscarCarro">Buscar</string>
+    <string name="atualizarCarro">Atualizar</string>
+    <string name="excluirCarro">Excluir</string>
+	<string name="enviadoComSucesso">Carro salvo com sucesso !</string>
+	<string name="atualizadoComSucesso">Carro atualizado com sucesso !</string>
+</resources>
